@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+input[type="text"]
+{
+  width: 100%;
+  padding: 10px;
+  background-color:lightgray;
+  border-radius: 20px;
+}
+
+.icon
+{
+  font-size: 33px;
+  padding: 20px;
+}
+.icon1
+{
+  font-size: 32px;
+  padding: 0px;
+
+}
+.sticky
+{
+  position: sticky;
+  top: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

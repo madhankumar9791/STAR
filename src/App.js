@@ -1,12 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     <h1> Welcome to React Js</h1>
-    </div>
-  );
-}
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 
-export default App;
+import Shop from './Shop';
+
+export default function App() {
+  
+  return (
+  <BrowserRouter>
+
+  <Routes>
+
+    <Route element={<Shop />} path='/' />
+
+  </Routes>
+  
+  
+</BrowserRouter>
+
+  )
+ 
+
+}
